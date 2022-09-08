@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 300px;
+  margin: 150px auto;
+  border-radius: 20px;
+  box-shadow: 10px 10px 21px #d3d3d6, -10px -10px 21px #fff;
+}
+#clock {
+  font-size: 45px;
+  font-weight: 500;
+  color: #fff;
+}
+#color {
+  font-size: 25px;
+}
+body {
+  background: #d2cbcb;
+}
